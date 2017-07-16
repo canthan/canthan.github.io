@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Andrzej Globisz - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.scss">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <meta name="Autor" content="Andrzej Globisz">
+    <meta name="Opis" content="Andrzej Globisz - Portfolio website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav id="menu" class="navbar navbar-inverse navbar-fixed-top navbar-right">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <h1 class="home__header home__header-1">Welcome to my home page</h1>
+        <h1 class="home__header home__header-1">I'm Andrzej Globisz</h1>
+        <h2 class="home__header home__header-2">Enjoy your stay</h2>
+
+        <ul>
+            <li class="home__link"><a href="mailto:andrzej.globisz@gmail.com">
+                <img class="home__link__img" src="images/icons/mail.png" 
+                     width="60px" height="60px" 
+                     alt="Envelope icon" title="Mail me"/></a></li>
+            <li class="home__link"><a href="https://github.com/canthan" target="_blank">
+                <img class="home__link__img" src="images/icons/github.png" 
+                     width="60px" height="60px" 
+                     alt="Github icon" title="See my Github portfolio"/></a></li>
+            <li class="home__link"><a href="https://www.linkedin.com/in/andrzej-globisz-814303143/" target="_blank">
+                <img class="home__link__img" src="images/icons/linkedin.png" 
+                     width="60px" height="60px" 
+                     alt="Linkedin icon" title="Check my Linkedin"/></a></li>
+        </ul>
+    </section>
+
+    <section id="about" class="about container">
+        <h1>Who am I?</h1>
+        
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <img src="images/background-ja3.JPG" alt="Photo of Andrzej Globisz" 
+                     title="Andrzej Globisz"  class="img-responsive about__img">
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h3><abbr title="Master Engineer">M. Eng.</abbr> Andrzej Globisz</h3>
+                <p class="about__p">I finished mechatronics studies on Silesian University of Technology in Gliwice, Electrical Department. During
+                    the course of studies I have learnt solid basics of programming in variety of environments and technologies (assembler,
+                    C, C++, C#, Matlab/Simulink, LabVIEW). It supplied me with fair amount of knowledge about object oriented
+                    programming. Apart from that I was learning HTML, CSS, Java, Javascript and other related Front-end tools.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <p class="about__p">During studies I started working as Control Systems Engineer in large publicly traded engineering,
+                    construction, and project management companies. It allowed me to develop client relations skills, ability
+                    to cooperate in the project team and urge for quality of my work.
+                </p>
+                <br>
+                <p class="about__p">Programming has always been my hobby, something that I am passionate about. I want to
+                    start a new chapter in my professional career as Junior Front-end Developer.
+                </p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <img src="images/backgrounds/backgroundS2.jpg" alt="Random stylish photo" 
+                     class="img-responsive  about__img">
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="container cv">
+
+        <h1>Curriculum Vitae</h1>
+        <div class="row">
+            <div class="col-sm-4 col-xs-12 cv__div">
+                <div class="cv__miniature">
+                    <a href="pdf/CV - Andrzej Globisz _pl.pdf" target="_blank" class="cv__a">
+                        <img src="images/cv_pl2.PNG" width="200px" height="300px"
+                             alt="Miniature of my CV" title="Check my CV in pdf in polish"
+                             class="cv__a__img"><br>
+                        <p>Open polish pdf</p>
+                        </a>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-xs-12 cv__div">
+                <div class="cv__miniature">
+                    <a href="pdf/CV - Andrzej Globisz _en.pdf" target="_blank"class="cv__a">
+                        <img src="images/cv_en2.PNG" width="200px" height="300px"
+                             alt="Miniature of my CV" title="Check my CV in pdf in english"
+                             class="cv__a__img"><br>
+                        <p>Open english pdf</p>
+                        </a>
+                </div>
+            </div>
+
+            <div class="col-sm-4  col-xs-12 cv__div">
+                <img src="images/backgrounds/backgroundS3.jpg" alt="Random stylish photo" class="img-responsive">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container skills">
+
+        <h1>Skills and technologies</h1>
+        <div class="row skills__row">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/HTML-256.png" alt="HTML logo" title="HTML - Good knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/css3-256.png" alt="CSS logo" title="CSS - Good knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/js.png" alt="Javascript logo" title="Javascript - Good knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/java.png" alt="Java logo" title="Java - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/bootstrap.png" alt="Bootstrap logo" title="Bootstrap - Medium knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/JQuery-256.png" alt="JQuery logo" title="JQuery - Medium knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/sass.png" alt="Sass logo" title="Sass - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/gulp.png" alt="Gulp logo" title="Gulp - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/git-256.png" alt="Github logo" title="Git - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/npm.png" alt="npm logo" title="npm - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/yeoman.png" alt="Yeoman logo" title="Yeoman - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/Gimp.png" alt="Gimp logo" title="Gimp - Medium knowledge" class="skills__img"/>
+            </div>
+        </div>
+
+        <h2>Learning now</h2>
+        <div class="row skills__row">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/frontend/angular.png" alt="AngularJS logo" title="AngularJS" class="skills__img"/>
+            </div>
+        </div>
+
+        <h2>Other</h2>
+        <div class="row skills__row">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/other/cpp.png" alt="C++ logo" title="C++ - Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/other/csharp.png" alt="C# logo" title="C#- Basic knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/other/matlab.png" alt="Matlab logo" title="Matlab - Medium knowledge" class="skills__img"/>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <img src="images/other/labview.png" alt="LabVIEW logo" title="LabVIEW - Basic knowledge" class="skills__img"/>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="portfolio" class="container portfolio">
+
+        <h1>Portfolio</h1>
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12 portfolio__a">
+
+                <a href="./projects/Snake/index.html" target="_blank">
+                    <h2>Snake - Game</h2>
+                </a>
+
+                <img src="images/portfolio/Snake.PNG"
+                     alt="Screenshot of portfolio page Snake Game"
+                     id="snakeImg"
+                     class="img-responsive img-rounded"/>
+
+                <div class="portfolio__caption img-rounded">
+                    <p>Move snake around the field and eat cookies to grow.<br>
+                        If snake hits border of the field or himself game ends.</p>
+                    <span>Controls:</span>
+                    <ul>
+                        <li>w - move Up</li>
+                        <li>s - move Down</li>
+                        <li>a - move Left</li>
+                        <li>d - move Right</li>
+                    </ul>
+                    <a href="./projects/Snake/index.html" target="_blank">
+                        <h4 class="portfolio__link"><span class="glyphicon glyphicon-link"></span>
+                        <strong>Open site</strong></h4>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-xs-12 portfolio__a">
+
+                <a href="./projects/Memo/index.html" target="_blank">
+                    <h2>Memo - Game</h2>
+                </a>
+                    <img src="images/portfolio/Memo.PNG"
+                         alt="Screenshot of portfolio page Memo Game"
+                         class="img-responsive img-rounded"/>
+
+                <div class="portfolio__caption img-rounded">
+                    <p>Select number of fields - size of the board (4 to 14)</p>
+                    <p>Uncover fields to find those with the same numbers by clicking on them.</p>
+                    <a href="./projects/Memo/index.html" target="_blank">
+                        <h4 class="portfolio__link"><span class="glyphicon glyphicon-link"></span>
+                        <strong>Open site</strong></h4>
+                    </a>
+                </div>                
+            </div>
+
+            <div class="col-sm-6 col-xs-12 portfolio__a">
+                <a href="./projects/Photographer/index.html" target="_blank">
+                    <h2>Mountain Photography</h2>
+                </a>
+                    <img src="images/portfolio/JohnDoe.PNG"
+                         alt="Screenshot of portfolio page - John Doe, Mountain Photography"
+                         class="img-responsive img-rounded"/>
+
+                <div class="portfolio__caption img-rounded">
+                    <p>Typical Single Page website created using Bootstrap and jQuery</p>
+                    <a href="./projects/Photographer/app/index.html" target="_blank">
+                        <h4 class="portfolio__link"><span class="glyphicon glyphicon-link"></span>
+                        <strong>Open site</strong></h4></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="container contact">
+
+        <h1>Contact</h1>
+        <div class="row">
+            <div class="col-xs-12 jumbotron">
+                <p>Please don't hesitate to contact me via:</p>
+                <p><span class="glyphicon glyphicon-envelope"></span><strong> email: </strong>
+                    <a class="contact__link" href="mailto:andrzej.globisz@gmail.com">andrzej.globisz@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">Designed by Andrzej Globisz, 2017 ©</p>
+    </footer>
+</body>
+    <!-- jQuery library -->
+    <script src="script/jquery-3.2.1.min.js"></script>
+    <script src="script/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/main.js"></script>
+</html>

@@ -1,0 +1,12 @@
+[
+    {
+        "age": 0, 
+        "id": "image1", 
+        "divId": "image1Div",
+        "section": "about",
+        "imageUrl": "images/photographer.jpg", 
+        "name": "I'm John Doe", 
+        "snippet1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus.",
+        "snippet2": "Sed id mi quis nisi ultrices mollis id rutrum tellus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }
+]

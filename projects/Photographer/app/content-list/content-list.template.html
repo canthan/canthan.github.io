@@ -1,0 +1,22 @@
+<div class="row" ng-repeat="content in $ctrl.contents">
+    <div ng-if="$odd" id="{{content.divId}}" class="col-sm-6 col-xs-12">
+        <img id="{{content.id}}" ng-src="{{content.imageUrl}}" 
+             alt="{{content.name}}" title="{{content.name}}" class="img-responsive">
+    </div>
+    <div ng-if="$odd" class="col-sm-6 col-xs-12">
+        <h2>{{content.name}}</h2>
+        <p>{{content.snippet1}}</p>
+        <p>{{content.snippet2}}</p>
+    </div>
+
+    <div ng-if="$even" class="col-sm-6 col-xs-12">
+        <h2>{{content.name}}</h2>
+        <p>{{content.snippet1}}</p>
+        <p>{{content.snippet2}}</p>
+    </div>
+    <div ng-if="$even" id="{{content.divId}}" class="col-sm-6 col-xs-12">
+        <img id="{{content.id}}" ng-src="{{content.imageUrl}}"
+             alt="{{content.name}}" title="{{content.name}}" class="img-responsive">
+    </div>
+</div>
+

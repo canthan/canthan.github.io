@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-xs-12">
+            <h3><a href="#galleries"
+                   class="return-galleries">Close <br>gallery</a></h3>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+            <h2>{{$ctrl.gallery.name}}</h2>
+            <h3>{{$ctrl.gallery.date}}</h3>
+        </div>
+
+    </div>
+
+    <div id="galleryMainImage" class="row">
+        <div class="gallery-images gallery-images-m">
+            <img ng-src="{{img}}" alt="Gallery image"
+                 class="gallery-image gallery-image-m"
+                 ng-class="{selected: img === $ctrl.mainImageUrl}"
+                 ng-repeat="img in $ctrl.gallery.images"/>
+            <ul class="pager">
+                <li id="pager-prev">
+                    <a ng-click="$ctrl.setImagePrev()">
+                        Previous
+                    </a>
+                </li>
+                <li id="pager-next">
+                    <a ng-click="$ctrl.setImageNext()">
+                        Next
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+</div>
+
+    <div class="row">
+        <div class="col-sm-4 col-xs-12">
+            <div class="well">
+            <dl>
+                <dt>Main goal</dt>
+                <dl>{{$ctrl.gallery.information.goal}}</dl>
+                <dt>Type of trip</dt>
+                <dl>{{$ctrl.gallery.information.type}}</dl>
+                <dt>Length of trip</dt>
+                <dl>{{$ctrl.gallery.information.length}}</dl>
+                <dt>Max. elevation</dt>
+                <dl>{{$ctrl.gallery.information.elevation}}</dl>
+                <dt>Distance</dt>
+                <dl>{{$ctrl.gallery.information.distance}}</dl>
+                <dt>Success?</dt>
+                <dl>{{$ctrl.gallery.information.success | checkmark}}</dl>
+                <dt>Members</dt>
+                <dl>{{$ctrl.gallery.information.members}}</dl>
+            </dl>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="well">
+                <p>{{$ctrl.gallery.text.first}}</p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="well">
+                <p>{{$ctrl.gallery.text.second}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6" ng-repeat="img in $ctrl.gallery.images">
+            <a ng-href="#!/galleries/{{$ctrl.gallery.id}}#galleries{{hash}}">
+                <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)"
+                     alt="Gallery image" class="img-responsive img-rounded gallery-detail-img">
+                <p ng-click="gotoImage()">link</p>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+    
+

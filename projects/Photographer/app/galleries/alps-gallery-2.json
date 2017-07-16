@@ -1,0 +1,36 @@
+{
+    "date": "2016-02",
+    "id": "alps-gallery-2",
+    "images": [
+        "images/galleries/alps2/alps2.1.jpg",
+        "images/galleries/alps2/alps2.2.jpg",
+        "images/galleries/alps2/alps2.3.jpg",
+        "images/galleries/alps2/alps2.4.jpg",
+        "images/galleries/alps2/alps2.5.jpg",
+        "images/galleries/alps2/alps2.6.jpg",
+        "images/galleries/alps2/alps2.7.jpg",
+        "images/galleries/alps2/alps2.8.jpg",
+        "images/galleries/alps2/alps2.9.jpg",
+        "images/galleries/alps2/alps2.10.jpg",
+        "images/galleries/alps2/alps2.11.jpg",
+        "images/galleries/alps2/alps2.12.jpg",
+        "images/galleries/alps2/alps2.13.jpg",
+        "images/galleries/alps2/alps2.14.jpg",
+        "images/galleries/alps2/alps2.15.jpg",
+        "images/galleries/alps2/alps2.16.jpg"
+    ], 
+    "information":{
+            "goal": "Random mountain",
+            "type": "Expedition",
+            "length": "14 days",
+            "elevation": "4 555 m",
+            "distance": "120km",
+            "success": true,
+            "members": "3"
+    },
+    "name": "Alps gallery",     
+    "text": {
+        "first": "First part of description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum aliquam tempus. Phasellus sit amet eros vel tortor finibus euismod. Vestibulum in sapien orci. Etiam vitae purus eu lorem molestie ultrices. Pellentesque aliquet malesuada mi vel condimentum. Nulla facilisi. Nullam fermentum, sem sit amet iaculis rhoncus, tellus odio cursus ipsum, porta finibus ipsum purus in turpis. Maecenas eget eleifend lectus. Ut convallis dictum dolor, vel convallis lacus rhoncus eu. Aliquam a viverra risus. In hac habitasse platea dictumst.",
+        "second": "Second part of description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum aliquam tempus. Phasellus sit amet eros vel tortor finibus euismod. Vestibulum in sapien orci. Etiam vitae purus eu lorem molestie ultrices. Pellentesque aliquet malesuada mi vel condimentum. Nulla facilisi. Nullam fermentum, sem sit amet iaculis rhoncus, tellus odio cursus ipsum, porta finibus ipsum purus in turpis. Maecenas eget eleifend lectus. Ut convallis dictum dolor, vel convallis lacus rhoncus eu. Aliquam a viverra risus. In hac habitasse platea dictumst."
+    }
+}

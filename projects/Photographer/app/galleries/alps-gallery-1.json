@@ -1,0 +1,36 @@
+{
+    "date": "2015-06",
+    "id": "alps-gallery-1",
+    "images": [
+        "images/galleries/alps1/alps1.1.jpg",
+        "images/galleries/alps1/alps1.2.jpg",
+        "images/galleries/alps1/alps1.3.jpg",
+        "images/galleries/alps1/alps1.4.jpg",
+        "images/galleries/alps1/alps1.5.jpg",
+        "images/galleries/alps1/alps1.6.jpg",
+        "images/galleries/alps1/alps1.7.jpg",
+        "images/galleries/alps1/alps1.8.jpg",
+        "images/galleries/alps1/alps1.9.jpg",
+        "images/galleries/alps1/alps1.10.jpg",
+        "images/galleries/alps1/alps1.11.jpg",
+        "images/galleries/alps1/alps1.12.jpg",
+        "images/galleries/alps1/alps1.13.jpg",
+        "images/galleries/alps1/alps1.14.jpg",
+        "images/galleries/alps1/alps1.15.jpg",
+        "images/galleries/alps1/alps1.16.jpg"
+    ], 
+    "information":{
+            "goal": "Mt. Blanc",
+            "type": "Expedition",
+            "length": "7 days",
+            "elevation": "4 810 m",
+            "distance": "140km",
+            "success": true,
+            "members": "5"
+    },
+    "name": "Alps gallery",     
+    "text": {
+        "first": "First part of description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum aliquam tempus. Phasellus sit amet eros vel tortor finibus euismod. Vestibulum in sapien orci. Etiam vitae purus eu lorem molestie ultrices. Pellentesque aliquet malesuada mi vel condimentum. Nulla facilisi. Nullam fermentum, sem sit amet iaculis rhoncus, tellus odio cursus ipsum, porta finibus ipsum purus in turpis. Maecenas eget eleifend lectus. Ut convallis dictum dolor, vel convallis lacus rhoncus eu. Aliquam a viverra risus. In hac habitasse platea dictumst.",
+        "second": "Second part of description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum aliquam tempus. Phasellus sit amet eros vel tortor finibus euismod. Vestibulum in sapien orci. Etiam vitae purus eu lorem molestie ultrices. Pellentesque aliquet malesuada mi vel condimentum. Nulla facilisi. Nullam fermentum, sem sit amet iaculis rhoncus, tellus odio cursus ipsum, porta finibus ipsum purus in turpis. Maecenas eget eleifend lectus. Ut convallis dictum dolor, vel convallis lacus rhoncus eu. Aliquam a viverra risus. In hac habitasse platea dictumst."
+    }
+}

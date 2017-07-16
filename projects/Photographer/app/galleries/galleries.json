@@ -1,0 +1,50 @@
+[
+    {
+        "age": 0, 
+        "id": "alps-gallery-1",
+        "imageUrl": "images/galleries/alps1/alps1.1.jpg",
+        "name": "Alps gallery", 
+        "date": "2015-06",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 1, 
+        "id": "climbing-gallery-1",
+        "imageUrl": "images/galleries/climbing1/climbing1.1.jpg",
+        "name": "Climbing gallery - Spain", 
+        "date": "2015-07",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 2, 
+        "id": "alps-gallery-2", 
+        "imageUrl": "images/galleries/alps2/alps2.1.jpg",
+        "name": "Alps gallery", 
+        "date": "2016-02",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 3, 
+        "id": "elbrus-gallery", 
+        "imageUrl": "images/galleries/elbrus/elbrus.1.jpg",
+        "name": "Elbrus gallery", 
+        "date": "2016-07",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 4, 
+        "id": "alps-gallery-3", 
+        "imageUrl": "images/galleries/alps3/alps3.1.jpg",
+        "name": "Alps gallery", 
+        "date": "2016-03",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 5, 
+        "id": "el-capitan-gallery", 
+        "imageUrl": "images/galleries/elCapitan/elCapitan.1.jpg",
+        "name": "El Capitan gallery", 
+        "date": "2015-09",
+        "snippet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }
+]

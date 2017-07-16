@@ -1,0 +1,29 @@
+[
+    {
+        "age": 0, 
+        "id": "gear-1", 
+        "section": "gear",
+        "imageUrl": "images/camera.jpg", 
+        "name": "Big \"Gun\"", 
+        "snippet1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus.",
+        "snippet2": "Sed id mi quis nisi ultrices mollis id rutrum tellus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 1, 
+        "id": "gear-2",
+        "section": "gear", 
+        "imageUrl": "images/camera2.jpg", 
+        "name": "Lesser firepower", 
+        "snippet1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus.",
+        "snippet2": "Sed id mi quis nisi ultrices mollis id rutrum tellus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }, 
+    {
+        "age": 2, 
+        "id": "gear-3", 
+        "section": "gear",
+        "imageUrl": "images/gear.jpg", 
+        "name": "Climbing gear", 
+        "snippet1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, tellus eu gravida ultrices, justo ante ultricies urna, eu iaculis nisl massa quis risus.",
+        "snippet2": "Sed id mi quis nisi ultrices mollis id rutrum tellus. Sed id mi quis nisi ultrices mollis id rutrum tellus."
+    }
+]

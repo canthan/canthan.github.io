@@ -1,0 +1,36 @@
+{
+    "date": "2015-09",
+    "id": "el-capitan-gallery",
+    "images": [
+        "images/galleries/elCapitan/elCapitan.1.jpg",
+        "images/galleries/elCapitan/elCapitan.2.jpg",
+        "images/galleries/elCapitan/elCapitan.3.jpg",
+        "images/galleries/elCapitan/elCapitan.4.jpg",
+        "images/galleries/elCapitan/elCapitan.5.jpg",
+        "images/galleries/elCapitan/elCapitan.6.jpg",
+        "images/galleries/elCapitan/elCapitan.7.jpg",
+        "images/galleries/elCapitan/elCapitan.8.jpg",
+        "images/galleries/elCapitan/elCapitan.9.jpg",
+        "images/galleries/elCapitan/elCapitan.10.jpg",
+        "images/galleries/elCapitan/elCapitan.11.jpg",
+        "images/galleries/elCapitan/elCapitan.12.jpg",
+        "images/galleries/elCapitan/elCapitan.13.jpg",
+        "images/galleries/elCapitan/elCapitan.14.jpg",
+        "images/galleries/elCapitan/elCapitan.15.jpg",
+        "images/galleries/elCapitan/elCapitan.16.jpg"
+    ], 
+    "information":{
+            "goal": "El Capitan",
+            "type": "Climbing",
+            "length": "13 days",
+            "elevation": "2 307 m",
+            "distance": "N/A",
+            "success": true,
+            "members": "2"
+    },
+    "name": "El Capitan gallery",
+    "text": {
+        "first": "First part of description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum aliquam tempus. Phasellus sit amet eros vel tortor finibus euismod. Vestibulum in sapien orci. Etiam vitae purus eu lorem molestie ultrices. Pellentesque aliquet malesuada mi vel condimentum. Nulla facilisi. Nullam fermentum, sem sit amet iaculis rhoncus, tellus odio cursus ipsum, porta finibus ipsum purus in turpis. Maecenas eget eleifend lectus. Ut convallis dictum dolor, vel convallis lacus rhoncus eu. Aliquam a viverra risus. In hac habitasse platea dictumst.",
+        "second": "Second part of description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum aliquam tempus. Phasellus sit amet eros vel tortor finibus euismod. Vestibulum in sapien orci. Etiam vitae purus eu lorem molestie ultrices. Pellentesque aliquet malesuada mi vel condimentum. Nulla facilisi. Nullam fermentum, sem sit amet iaculis rhoncus, tellus odio cursus ipsum, porta finibus ipsum purus in turpis. Maecenas eget eleifend lectus. Ut convallis dictum dolor, vel convallis lacus rhoncus eu. Aliquam a viverra risus. In hac habitasse platea dictumst."
+    }
+}
