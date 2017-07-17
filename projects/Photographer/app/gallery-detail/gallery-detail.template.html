@@ -6,7 +6,8 @@
         </div>
         <div class="col-sm-6 col-xs-12">
             <h2>{{$ctrl.gallery.name}}</h2>
-            <h3>{{$ctrl.gallery.date}}</h3>
+            <h3>{{GetMonthName(GetMonth($ctrl.gallery.date))}} {{GetYear($ctrl.gallery.date)}}</h3>
+
         </div>
 
     </div>
