@@ -33,6 +33,4 @@ gulp.task('watch', ['browserSync', 'sass'], function (){
     gulp.watch('app/*/*.css', browserSync.reload);
 });
 
-gulp.task('default', function(){
-    run('watch');
-});
+gulp.task('default', ['watch']);
