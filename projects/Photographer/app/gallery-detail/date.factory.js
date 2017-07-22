@@ -2,23 +2,24 @@
 
 angular.
   module('galleryDetail').
-  service('DateGetter', function(){
+  factory('DateGetterFactory', function(){
+     return {
+        GetMonthName: function (month) {
+            var monthNames = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"];
+            return monthNames[month];
+        },
 
-      this.GetMonthName = function (month) {
-        var monthNames = ["January", "February", "March", "April", "May", "June",
-          "July", "August", "September", "October", "November", "December"];
-        return monthNames[month];
-      };
+        GetMonth: function (date) {
+            var d = new Date(date);
+            return d.getMonth();
+        },
 
-      this.GetMonth = function (date) {
-        var d = new Date(date);
-        return d.getMonth();
-      };
-
-      this.GetYear = function (date) {
-        var d = new Date(date);
-        return d.getFullYear();
-      };
+        GetYear: function (date) {
+            var d = new Date(date);
+            return d.getFullYear();
+        }
+    }
 
     });
 
