@@ -5,8 +5,8 @@ angular.
 module('galleryList').
 component('galleryList', {
     templateUrl: 'gallery-list/gallery-list.template.html',
-    controller: ['Gallery', '$scope', 'DateGetter',
-        function GalleryListController(Gallery, $scope, DateGetter) {
+    controller: ['Gallery', '$scope', 'DateGetterService',
+        function GalleryListController(Gallery, $scope, DateGetterService) {
             this.orderProp = 'date';
             this.galleries = Gallery.query();
             
@@ -21,28 +21,9 @@ component('galleryList', {
                 galleryHover()
             })
 
-            $scope.GetMonthName = function (month) {return DateGetter.GetMonthName(month);};
-
-            $scope.GetMonth = function (month) {return DateGetter.GetMonth(month);};
-
-            $scope.GetYear = function (month) {return DateGetter.GetYear(month);};
-
-           
-           /* $scope.getMonthName = function(month){
-                var monthNames = ["January", "February", "March", "April", "May", "June",
-                    "July", "August", "September", "October", "November", "December"];
-                return monthNames[month];
-            }
-
-            $scope.GetMonth = function(date){
-                var d = new Date(date);
-                return d.getMonth();
-            }
-
-            $scope.GetYear = function(date){
-                var d = new Date(date);
-                return d.getFullYear();
-            }*/
+            $scope.GetMonthName = function (month) {return DateGetterService.GetMonthName(month);};
+            $scope.GetMonth = function (month) {return DateGetterService.GetMonth(month);};
+            $scope.GetYear = function (month) {return DateGetterService.GetYear(month);};
         }
     ]
 });
